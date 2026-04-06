@@ -49,7 +49,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: YOUR_DOCKERHUB_USERNAME/my-webapp
+          images: nat272026/my-webapp
           tags: |
             type=raw,value=latest
             type=sha
